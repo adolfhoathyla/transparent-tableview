@@ -10,6 +10,8 @@ import UIKit
 
 class TransparentTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var availableArea: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

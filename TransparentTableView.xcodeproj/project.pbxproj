@@ -12,6 +12,7 @@
 		DCA510DA210220D600D9D6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA510D8210220D600D9D6CA /* Main.storyboard */; };
 		DCA510DC210220E700D9D6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA510DB210220E700D9D6CA /* Assets.xcassets */; };
 		DCA510DF210220E700D9D6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA510DD210220E700D9D6CA /* LaunchScreen.storyboard */; };
+		DCA510E72102259D00D9D6CA /* TransparentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA510E62102259D00D9D6CA /* TransparentTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DCA510DB210220E700D9D6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCA510DE210220E700D9D6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCA510E0210220E700D9D6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA510E62102259D00D9D6CA /* TransparentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				DCA510DB210220E700D9D6CA /* Assets.xcassets */,
 				DCA510DD210220E700D9D6CA /* LaunchScreen.storyboard */,
 				DCA510E0210220E700D9D6CA /* Info.plist */,
+				DCA510E62102259D00D9D6CA /* TransparentTableViewCell.swift */,
 			);
 			path = TransparentTableView;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCA510D7210220D600D9D6CA /* ViewController.swift in Sources */,
+				DCA510E72102259D00D9D6CA /* TransparentTableViewCell.swift in Sources */,
 				DCA510D5210220D600D9D6CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
